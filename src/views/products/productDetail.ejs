@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <%- include('../partials/head')%> 
+<body>
+   
+
+    <%- include('../partials/header')%> 
+
+    <main>
+
+
+        <section class="producto-principal">
+            
+            <img src=<%= productos[4].imagen%> alt="foto del producto">
+
+            <article class="datos-producto">
+                <h2><%= productos[4].nombre%></h2>
+
+                <p class="breve-descripcion"><%= productos[4].descripcion%></p>
+                <p class="precio-del-producto"><%= productos[4].precio%></p>
+
+                <div class="iconos-texto">
+
+
+               <p> <i class="fas fa-shield-alt"></i>Garantia - 12 meses </p>
+               <p>  <i class="fas fa-check"></i>Stock disponible</p>
+                <p> <i class="fas fa-truck-moving"></i>Envios a todo el pais</p>
+            </div>
+
+
+                    <input type="button" name="" id="" value="Sumar al carrito">
+            </article>
+        </section>
+
+        <section class="caracteristicas">
+            <article>
+                <h3>Caracteristicas generales</h3>
+                <ul>
+                    <li class="color1">Audio : 7.1</li>
+                    <li class="color2">Colores : Negro,Gris</li>
+                    <li class="color1">Conexion : Cableado</li>
+                    <li class="color2">Con microfono : Si</li>
+                    <li class="color1">Tipo de audio : Virtual</li>
+                    <li class="color2">Tipo : Headset</li>
+                </ul>
+
+                
+
+            </article>
+        </section>
+
+
+        <%- include('../partials/ofertas')%> 
+
+
+        <%-   include('../partials/newsletter')%> 
+    
+
+
+    </main>
+
+
+    <%- include('../partials/footer')%> 
+
+</body>
+</html>
