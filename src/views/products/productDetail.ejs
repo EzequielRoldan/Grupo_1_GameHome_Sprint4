@@ -11,13 +11,13 @@
 
         <section class="producto-principal">
             
-            <img src=<%= productos[4].imagen%> alt="foto del producto">
+            <img src="/images/<%=producto.image%>" alt="foto del producto">
 
             <article class="datos-producto">
-                <h2><%= productos[4].nombre%></h2>
+                <h2><%= producto.name%></h2>
 
-                <p class="breve-descripcion"><%= productos[4].descripcion%></p>
-                <p class="precio-del-producto"><%= productos[4].precio%></p>
+                <p class="breve-descripcion"><%= producto.description%></p>
+                <p class="precio-del-producto"><%= producto.price%></p>
 
                 <div class="iconos-texto">
 
@@ -36,12 +36,15 @@
             <article>
                 <h3>Caracteristicas generales</h3>
                 <ul>
-                    <li class="color1">Audio : 7.1</li>
-                    <li class="color2">Colores : Negro,Gris</li>
-                    <li class="color1">Conexion : Cableado</li>
-                    <li class="color2">Con microfono : Si</li>
+                    <li class="color1">Nombre : <%= producto.name%></li>
+                    
+                    
+                  <li class="color2">Precio : <%= producto.price%></li>
+                    <li class="color1">Categoria :<%= producto.category%> </li>
+                    <li class="color2">Categoria :<%= producto.description%> </li>
+                   <!--<li class="color2">Con microfono : Si</li>
                     <li class="color1">Tipo de audio : Virtual</li>
-                    <li class="color2">Tipo : Headset</li>
+                    <li class="color2">Tipo : Headset</li>--> 
                 </ul>
 
                 

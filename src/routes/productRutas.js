@@ -6,13 +6,20 @@ const router= express.Router();
 let productController= require('../controllers/productController');
 
 router.get('/', productController.index);
+
+
 router.get('/editarProducto', productController.edit);
 
-router.get('/detalleDeProducto', productController.detail);
+
 router.get('/carrito', productController.cart);
 
 
 /**Crear Producto **/
-router.get('/create', productController.add);
+router.get('/products/create', productController.add);
+
+
+
+/*Detalle de producto**/ 
+router.get('/products/:id', productController.detail);
 
 module.exports= router;

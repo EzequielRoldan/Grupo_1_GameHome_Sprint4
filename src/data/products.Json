@@ -1,41 +1,63 @@
-[{
+[
+  {
     "id": 1,
-    "name": "nombre del producto",
+    "name":"Mouse Glorious Model D Minus - Matte Black",
     "description": "id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum",
-    "image": "image",
-    "category": "Notebook",
-    "color": "PRODUCTS-golden-monkey.jpg",
-    "price": "$$$$$"
+    "image": "mouse.jpg",
+    "category": "Periféricos/componentes",
+    "price": "$6.000"
   }, {
     "id": 2,
-    "name": "nombre del producto",
+    "name": "Teclado Mecanico Logitech G915 Lightspeed RGB",
     "description": "nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat",
-    "image": "image",
-    "category": "etc",
-    "color": "PRODUCTS-product_f_i_filtro_detalle_tacita.jpg",
-    "price": "$$$$$"
+    "image":"teclado.jpg",
+    "category": "Periféricos/componentes",
+    "price": "$24.590"
   }, {
     "id": 3,
-    "name": "nombre del producto",
+    "name": "Silla Gamer HHGears SM-115 Negro Hasta 90kg r",
     "description": "justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna",
-    "image": "image",
-    "category": "Notebook",
-    "color": "PRODUCTS-cafe-origen-tolima-juan-valdez.png",
-    "price": "$$$$$"
+    "image": "silla-product.jpg",
+    "category": "Sillas gamer",
+    "price": "$20.000"
   }, {
     "id": 4,
-    "name": "nombre del producto",
+    "name": "Monitor LG 20 20MK400H-B VGA HDMI",
     "description": "malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus",
-    "image": "image",
-    "category": "etc",
-    "color": "PRODUCTS-te-blanco-albaricoque-maracuya.jpg",
-    "price": "$$$$$"
+    "image": "monitor.jpg",
+    "category": "Pc/Notebook",
+    "price": "$21.950"
   }, {
     "id": 5,
-    "name": "nombre del producto",
-    "description": "est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum",
-    "image": "image",
-    "category": "etc",
-    "color": "PRODUCTS-golden-monkey.jpg",
-    "price": "$$$$$"
-  }]
+    "name": "Auriculares HyperX Cloud Orbit S 7.1 3D Planar",
+    "description": "Auriculares marca Hyper X, en color negro/gris, cuenta con usb, microfono y conectividad Android por Mini Plug,PC,Nintendo Switch,PS4,Xbox One",
+    "image": "auriculares.jpg",
+    "category": "Audio",
+    "price":"$29.910"
+  }
+  , {
+    "id": 6,
+    "name": "Auriculares HyperX Cloud Orbit S 7.1 3D Planar",
+    "description": "Auriculares marca Hyper X, en color negro/gris, cuenta con usb, microfono y conectividad Android por Mini Plug,PC,Nintendo Switch,PS4,Xbox One",
+    "image": "auriculares.jpg",
+    "category": "Audio",
+    "price":"$29.910"
+  }
+  , {
+    "id": 7,
+    "name": "Auriculares HyperX Cloud Orbit S 7.1 3D Planar",
+    "description": "Auriculares marca Hyper X, en color negro/gris, cuenta con usb, microfono y conectividad Android por Mini Plug,PC,Nintendo Switch,PS4,Xbox One",
+    "image": "auriculares.jpg",
+    "category": "Audio",
+    "price":"$29.910"
+  }
+  , {
+    "id": 8,
+    "name": "Auriculares HyperX Cloud Orbit S 7.1 3D Planar",
+    "description": "Auriculares marca Hyper X, en color negro/gris, cuenta con usb, microfono y conectividad Android por Mini Plug,PC,Nintendo Switch,PS4,Xbox One",
+    "image": "auriculares.jpg",
+    "category": "Audio",
+    "price":"$29.910"
+  }
+
+]

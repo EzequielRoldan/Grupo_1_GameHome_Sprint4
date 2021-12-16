@@ -1,0 +1,26 @@
+
+<section class="que-estas-buscando">
+
+    <% products.forEach(producto => { %>
+     
+    
+
+    <!--Estos no se van a ver en la versión MOBILE-->
+ 
+     <article class="mobile">
+         <!-- <img src="images/mouse.jpg" alt="foto mouse">-->
+         <img src="/images/<%=producto.image%>"alt="">
+ 
+         <div class="nombre-precio-mas">
+ 
+         <p class="nombre"><%= producto.name%></p>
+         <p class="precio"><%= producto.price%></p>
+         <p class="ver-mas"><a href="/products/<%=producto.id%>">Ver mas</a></p>
+     </div>
+ 
+     </article>
+ 
+    
+     <% }) %>
+
+ </section>

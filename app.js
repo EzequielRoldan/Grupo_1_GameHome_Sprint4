@@ -14,7 +14,16 @@ app.set('views', path.resolve(__dirname, './src/views'));
 const usersRutas= require('./src/routes/usersRutas')
 const productRutas= require('./src/routes/productRutas')
 
+// Pasar poder usar los métodos PUT y DELETE
+const methodOverride =  require('method-override'); 
 
+// Necesario para trabajar con formularios!!
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json())
+
+
+// Pasar poder pisar el method="POST" en el formulario por PUT y DELETE
+app.use(methodOverride('_method'));
 
 app.listen(process.env.PORT ||port, () => console.log(`Servidor Funcionando! ${port}!`))
 
