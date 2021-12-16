@@ -7,8 +7,12 @@ let productController= require('../controllers/productController');
 
 router.get('/', productController.index);
 router.get('/editarProducto', productController.edit);
-router.get('/agregarProducto', productController.add);
+
 router.get('/detalleDeProducto', productController.detail);
 router.get('/carrito', productController.cart);
+
+
+/**Crear Producto **/
+router.get('/create', productController.add);
 
 module.exports= router;
