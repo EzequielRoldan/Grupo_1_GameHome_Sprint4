@@ -52,6 +52,7 @@ const modelController = function (name) {
             //Retorno el último id generado
             return row.id;
         },
+
         // Actualizo el archivo
         update: function (row) {
             let rows = this.readFile();

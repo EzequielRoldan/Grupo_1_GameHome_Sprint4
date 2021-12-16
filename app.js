@@ -3,6 +3,7 @@ const path= require('path');
 const app = express();
 const port = 3030;
 
+
 // vistas y public static
 app.use(express.static('public'));
 app.set('view engine', 'ejs');

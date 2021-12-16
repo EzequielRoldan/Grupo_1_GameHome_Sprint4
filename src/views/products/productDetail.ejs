@@ -27,8 +27,14 @@
                 <p> <i class="fas fa-truck-moving"></i>Envios a todo el pais</p>
             </div>
 
+            <form action="/carrito" method="get">
+                    <button type="submit" name="" id="" value="Sumar al carrito">Agregar al carrito</button>
+                </form>
+                    <br><br>
 
-                    <input type="button" name="" id="" value="Sumar al carrito">
+                    <form action="/products/<%=producto.id%>/edit" method="get">
+                        <button type="submit" name="" id="">Edición de producto</button>
+                     </form>
             </article>
         </section>
 

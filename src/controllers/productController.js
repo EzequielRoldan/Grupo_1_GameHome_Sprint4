@@ -11,12 +11,35 @@ const productController = {
             let products = productModel.all()
         res.render('products/index',{products})
     },
+    all: (req,res)=>{
+    
+        let products = productModel.all()
+        res.render('products/products',{products})
+    
+},
     edit: (req,res)=>{
         res.render('products/editProduct')
     },
     add: (req,res)=>{
-        res.render('products/productAdd')
+        res.render('products/productAdd');
+
     },
+    store: (req, res) => {
+        let row = req.body
+        
+        if(req.file){
+            row.image = req.file.filename
+        }else{
+            row.image = 'default-image.png'
+        }
+
+        console.log(req.body);
+
+        productModel.create(row) 
+
+        res.redirect('products')
+    },
+
     detail: function (req,res) {
 
         let id = req.params.id
