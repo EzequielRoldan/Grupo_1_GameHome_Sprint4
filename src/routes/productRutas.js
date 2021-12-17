@@ -34,4 +34,7 @@ router.get('/products/:id', productController.detail);
 //Ruta para todos los productos (GET)
 router.get('/products', productController.all);
 
+/*** DELETE ONE PRODUCT***/ 
+router.delete('/products/delete/:id', productController.destroy); 
+
 module.exports= router;

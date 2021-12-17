@@ -78,8 +78,15 @@ const productController = {
 		res.redirect('/products')
 
 		
+    // Delete - Delete one product from DB
+	destroy : (req, res) => {
+		// Do the magic
+		productModel.delete(req.params.id)
+
+		res.redirect('/products')
 	}
 
+}
 }
 
 module.exports=productController;
