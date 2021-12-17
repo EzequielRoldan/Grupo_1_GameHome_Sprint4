@@ -76,7 +76,7 @@ const productController = {
 		productModel.update(row) 
 
 		res.redirect('/products')
-
+},
 		
     // Delete - Delete one product from DB
 	destroy : (req, res) => {
@@ -87,6 +87,6 @@ const productController = {
 	}
 
 }
-}
+
 
 module.exports=productController;

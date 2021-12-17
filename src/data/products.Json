@@ -16,7 +16,7 @@
   "price": "$24.590"
  },
  {
-  "id":3,
+  "id": 3,
   "name": "Silla Gamer HHGears SM-115 Negro",
   "description": "nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat",
   "image": "silla-product.jpg",
@@ -64,24 +64,5 @@
   "description": "asd",
   "image": "default-image.png",
   "id": 9
- },
- {
-  "name": "note",
-  "price": [
-   "333",
-   "222"
-  ],
-  "description": "aaaa",
-  "image": "default-image.png",
-  "id": 10
- },
- {
-  "name": "caja ",
-  "category": "Pc/Notebook",
-  "price": "900000000",
-  "section": "ofertas",
-  "description": "kskskskkss",
-  "id": "11",
-  "image": "image-1639754356241.webp"
  }
 ]
