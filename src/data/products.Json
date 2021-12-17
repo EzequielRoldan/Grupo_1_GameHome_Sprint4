@@ -16,11 +16,11 @@
   "price": "$24.590"
  },
  {
-  "id": 3,
-  "name": "Silla Gamer HHGears SM-115 Negro Hasta 90kg r",
-  "description": "justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna",
+  "id":3,
+  "name": "Silla Gamer HHGears SM-115 Negro",
+  "description": "nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat",
   "image": "silla-product.jpg",
-  "category": "Sillas gamer",
+  "category": "Periféricos/componentes",
   "price": "$20.000"
  },
  {
@@ -84,12 +84,12 @@
   "id": 10
  },
  {
-  "name": "no",
-  "category": "Video",
-  "price": "555",
+  "name": "caja ",
+  "category": "Pc/Notebook",
+  "price": "900000000",
   "section": "ofertas",
-  "description": "ss",
-  "image": "default-image.png",
-  "id": 11
+  "description": "kskskskkss",
+  "id": "11",
+  "image": "image-1639754356241.webp"
  }
 ]

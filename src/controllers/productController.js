@@ -18,7 +18,10 @@ const productController = {
     
 },
     edit: (req,res)=>{
-        res.render('products/editProduct')
+       let id=req.params.id;
+       let producto= productModel.find(id)
+
+        res.render('products/editProduct',{producto});
     },
     add: (req,res)=>{
         res.render('products/productAdd');
@@ -50,7 +53,32 @@ const productController = {
     },
     cart: (req,res)=>{
         res.render('products/productCart')
-    }
+    },
+    // Update - Method to update
+	update: (req, res) => {
+		// Do the magic
+
+		let idReq = req.params.id
+
+		let  row= req.body
+		row.id = idReq
+
+			if(req.file!=undefined){
+				row.image = req.file.filename
+			}
+			else if(req.file==undefined){
+				let objeto = productModel.find(idReq)
+				row.image = objeto.image
+			}
+			
+
+		
+		productModel.update(row) 
+
+		res.redirect('/products')
+
+		
+	}
 
 }
 

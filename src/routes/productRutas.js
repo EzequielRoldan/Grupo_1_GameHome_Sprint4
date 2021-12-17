@@ -16,6 +16,7 @@ router.get('/', productController.index);
 
 //Editar producto
 router.get('/products/:id/edit', productController.edit);
+router.put('/products/:id',upload.single('image'),productController.update)
 
 
 router.get('/carrito', productController.cart);

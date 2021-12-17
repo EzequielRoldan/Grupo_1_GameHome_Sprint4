@@ -52,7 +52,7 @@ form .contenido-form label, input, textarea, select{
 }
 
 
-.btn-form input{
+.btn-form button{
     color: white;
    
     padding:8px;
