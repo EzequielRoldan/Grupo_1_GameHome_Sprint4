@@ -24,14 +24,6 @@
   "price": "$20.000"
  },
  {
-  "id": 4,
-  "name": "Monitor LG 20 20MK400H-B VGA HDMI",
-  "description": "malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus",
-  "image": "monitor.jpg",
-  "category": "Pc/Notebook",
-  "price": "$21.950"
- },
- {
   "id": 5,
   "name": "Auriculares HyperX Cloud Orbit S 7.1 3D Planar",
   "description": "Auriculares marca Hyper X, en color negro/gris, cuenta con usb, microfono y conectividad Android por Mini Plug,PC,Nintendo Switch,PS4,Xbox One",

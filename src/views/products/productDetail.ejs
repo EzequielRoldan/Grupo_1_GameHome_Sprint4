@@ -35,6 +35,11 @@
                     <form action="/products/<%=producto.id%>/edit" method="get">
                         <button type="submit" name="" id="">Edición de producto</button>
                      </form>
+
+                     <form action="/products/delete/<%=producto.id%>?_method=delete" method="POST">
+                        <button type="submit" class="action-button delete">ELIMINAR</button>
+                    </form>
+                
             </article>
         </section>
 

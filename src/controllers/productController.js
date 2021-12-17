@@ -50,7 +50,14 @@ const productController = {
     },
     cart: (req,res)=>{
         res.render('products/productCart')
-    }
+    },
+    // Delete - Delete one product from DB
+	destroy : (req, res) => {
+		// Do the magic
+		productModel.delete(req.params.id)
+
+		res.redirect('/products')
+	}
 
 }
 
