@@ -69,13 +69,21 @@ h1{
     
 }
 
-
-article .tacho {
-    color: #87f234;
-    width: 25px;
-    height: 10px;
-    align-self: center;
+article .tachito {
     
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    align-self: stretch;
+    margin-top: 50px;
+    border: transparent;
+    color: royalblue;
+    transition: 1s;
+}
+
+article .tachito:hover{
+
+    color: rgb(167, 2, 2);
 
 }
 
