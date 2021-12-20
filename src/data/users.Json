@@ -3,23 +3,29 @@
     "firstName": "Albaricoque Maracuyá",
     "lastName": "ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui",
     "email": "te",
-    " password": "PRODUCTS-ROOIBOS-CARAMELO.jpg",
+    "date":"12-12-20",
+    "password": "PRODUCTS-ROOIBOS-CARAMELO.jpg",
     "category": "mas-vendido",
     "image": "nuevo"
+    
   }, {
     "id": 2,
     "firstName": "Albaricoque Maracuyá",
     "lastName": "curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel",
     "email": "café",
-    " password": "PRODUCTS-ROOIBOS-CARAMELO.jpg",
+    "date":"12-12-20",
+    "password": "PRODUCTS-ROOIBOS-CARAMELO.jpg",
     "category": "nuevo",
     "image": "nuevo"
+    
   }, {
     "id": 3,
     "firstName": "Filtro Tacita",
     "lastName": "odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit",
     "email": "café",
+    "date":"12-12-20",
     " password": "PRODUCTS-xanela-paraiso.jpg",
     "category": "banner",
     "image": "mas-vendido"
+    
   }]
