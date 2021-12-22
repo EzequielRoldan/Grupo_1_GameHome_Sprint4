@@ -9,15 +9,6 @@
   "image": "mouse.jpg"
  },
  {
-  "name": "Teclado Mecanico Logitech G915 Lightspeed RGB",
-  "category": "Pc/Notebook",
-  "price": "$24.590",
-  "section": "destacado",
-  "description": "id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum",
-  "id": "2",
-  "image": "teclado.jpg"
- },
- {
   "name": "Silla Gamer HHGears SM-115 Negro",
   "category": "Pc/Notebook",
   "price": "$20.000",
@@ -71,12 +62,12 @@
  },
  {
   "name": "WebCam Logitech C922 USB Full Hd Pro Stream c/Trip",
-  "category": "Video",
+  "category": "Pc/Notebook",
   "price": "8.560",
-  "section": "destacado",
+  "section": "todos",
   "description": "WebCam Logitech C922 USB Full Hd Pro Stream c/Trip",
-  "image": "image-1640008493863.jpg",
-  "id": 10
+  "id": "10",
+  "image": "image-1640008493863.jpg"
  },
  {
   "name": "WebCam Logitech BRIO 4K Ultra HD ",
@@ -122,5 +113,23 @@
   "description": "Microfono HyperX QuadCast S Streaming PC PS4 Condensador",
   "image": "image-1640012483141.jpg",
   "id": 15
+ },
+ {
+  "name": "Gabinete Kolink Citadel Mesh RGB 3xCoolers ARGB Vidrio Templado",
+  "category": "Periféricos/componentes",
+  "price": "9.600",
+  "section": "destacado",
+  "description": "Gabinete Kolink Citadel Mesh RGB 3xCoolers ARGB Vidrio Templado",
+  "id": "16",
+  "image": "image-1640132573371.jpg"
+ },
+ {
+  "name": "Teclado Mecanico Glorious GMMK Full Size RGB (Pre-Built)",
+  "category": "Periféricos/componentes",
+  "price": "13.340",
+  "section": "destacado",
+  "description": "Teclado Mecanico Glorious GMMK Full Size RGB (Pre-Built)",
+  "image": "image-1640132659635.jpg",
+  "id": 17
  }
 ]

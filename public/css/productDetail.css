@@ -51,17 +51,40 @@
     margin-bottom: 15px;
 }
 
-.producto-principal input{
-    padding: 10px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    border-radius: 7px;
-    width: 50%;
+.producto-principal form button{
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    width: 75%;
+    max-width: 470px;
     font-size: 16px;
-   /* border:none;*/
+   
 }
 
+.producto-principal form .agregar-boton{
+    background-color: rgb(214, 214, 214);
+    border: none;
+    transition: all 0.4s;
+}
+.producto-principal form button:hover{
+    opacity: 0.9;
+    padding: 10px;
+    cursor: pointer;
+}
+.producto-principal form .editar-boton{
+    border: none;
+    background-color: #87f234;
+    color: white;
+    transition: all 0.4s;
+}
 
+.producto-principal form .eliminar-boton{
+    background-color: rgba(255, 38, 0, 0.844);
+    color: white;
+    border: none;
+    transition: all 0.4s;
+}
 
 
 main .caracteristicas{

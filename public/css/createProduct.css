@@ -44,13 +44,14 @@ form .contenido-form label, input, textarea, select{
     width: 100%;
     font-size: 100%;
 }
-.btn-form{
-    width: 85%;
-    margin-top: 5px;
-    margin-bottom: 4px;
-    
-}
 
+.btn-form{
+    margin-top: 10px;
+   
+    display: inline-block;
+    width: 85%;
+    font-size: 17px;
+}
 
 .btn-form button{
     color: white;
@@ -61,18 +62,33 @@ form .contenido-form label, input, textarea, select{
     box-shadow: 0px 0px 10px #5c2e6e;
     margin-right: 2%;
       
-    
-}
-
-
-
-.btn-form-eliminar{
     width: 85%;
     margin-top: 5px;
     margin-bottom: 4px;
+    
+    font-size: 17px;
+    transition: all 0.4s;
+    border: none;
+    border-radius: 5px;
+    
+}
+.btn-form button:hover{
+    opacity: 0.9;
+    padding: 10px;
+    cursor: pointer;
 }
 
-.btn-form-eliminar input{
+
+.btn-form-eliminar{
+    
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 85%;
+
+}
+
+
+.btn-form-eliminar form button{
     color: white;
    
     padding:8px;
@@ -80,7 +96,21 @@ form .contenido-form label, input, textarea, select{
     cursor: pointer;
     box-shadow: 0px 0px 10px #5c2e6e;
     margin-right: 2%;
+      
+    width: 68%;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    font-size: 17px;
+    transition: all 0.4s;
+    border: none;
+    border-radius: 5px;
 }
+.btn-form-eliminar button:hover{
+    opacity: 0.9;
+    padding: 10px;
+    cursor: pointer;
+}
+
 
 .editar{
     margin-top: 10px;
@@ -112,15 +142,41 @@ form .art-product, .img{
     margin: auto;
    
 }
+
 .btn-form{
     display: inline-block;
-    width: 45%;
+    
+    
+}
+.btn-form button{
+   
+    
+    width: 67%;
 }
 
 .btn-form-eliminar{
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: inline-block;
-    width: 45%;
-    margin-left: 50px;
+    width: 75%;
+
+}
+
+
+.btn-form-eliminar form button{
+    color: white;
+   
+    padding:8px;
+    background:linear-gradient(to right ,#000000,#c01a1a,#c90000);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #5c2e6e;
+    margin-right: 2%;
+      
+    width: 68%;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    font-size: 17px;
+    
 }
 
 
