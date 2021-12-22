@@ -7,6 +7,6 @@ let usersController= require('../controllers/usersController');
 
 router.get('/login', usersController.login);
 router.get('/registro', usersController.register);
-
+router.post('/registro', usersController.create);
 
 module.exports= router;

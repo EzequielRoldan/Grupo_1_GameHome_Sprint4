@@ -91,7 +91,6 @@ article .tachito:hover{
 .seguir-comprando{
     
     border: 1px  #8d53fd;
-    width: 80%;
     margin: auto;
     margin-bottom: 5px;
     padding: 15px;
@@ -107,11 +106,10 @@ article .tachito:hover{
 }
 .seguir{
 
-    
-    
     color:#efeef1;
-    
-
+    /*margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 1%;*/
 }
 .comprando{
     margin-right: 1px;

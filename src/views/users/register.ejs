@@ -15,18 +15,21 @@
             
             <div class="register">
                 <h2>Registrarse</h2>
-                <form action="POST" id="form">
-                    <input type="text" name="firstName" class="nombre" placeholder="Nombre de usuario" required>
+                
+                <form action="/usuario/registro" method="POST" id="form">
 
-                    <input type="text" name="lastName" class="nombre" placeholder="Apellido de usuario" required>
 
-                    <input type="text" name="email" class="correo" placeholder="Correo electrónico" required>
+                    <input type="text" name="firstName" class="nombre" placeholder="Nombre" required>
 
-                    <input type="date" id="start" name="trip-start" value="2020-12-12"min="1995-01-01" max="2030-12-12" required>
+                    <input type="text" name="lastName" class="nombre" placeholder="Apellido" required>
 
-                    <input type="password" name="contraseña" class="contraseña" placeholder="Contraseña" required>
+                    <input type="email" name="email" class="correo" placeholder="Correo electrónico" required>
 
-                    <input type="password" name="contraseña" class="repass" placeholder="Confirmar contraseña" required>
+                    <input type="date" id="start" name="date" value="2020-12-12"min="1995-01-01" max="2030-12-12" required>
+
+                    <input type="password" name="password" class="contraseña" placeholder="Contraseña" required>
+
+                    
 
 
                

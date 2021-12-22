@@ -1,6 +1,4 @@
-
 const jsonDb = require('../model/jsonDatabase')
-
 const productModel = jsonDb('products')
 
 

@@ -40,5 +40,5 @@ app.use('/usuario',usersRutas)
 
 //Error 404
 app.use((req,res,next)=>{
-    res.status(404).render("not-found")
+    res.status(404).render("users/notFound")
 })
